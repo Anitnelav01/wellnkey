@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wellnkey</title>
+    <script src="bundle.js" defer></script>
+  </head>
+  <body>
+    <div class="container-body">
+      <header class="header">
+        <div class="container">
+          <div class="header__top">
+            <div class="header__left">
+              <div class="header__container">
+                <div class="item-info location">
+                  <img src="./images/Map_Pin.svg" alt="location" />
+                  <a href="#" class="location-text">Местоположение</a>
+                </div>
+                <div class="item-info">
+                  <a href="#">Поддержка</a>
+                </div>
+              </div>
+              <div class="header__container">
+                <div class="item-info">
+                  <a href="#">Компаниям</a>
+                </div>
+                <div class="item-info">
+                  <a href="#">Партнерам</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__center">
+              <a href="/">
+                <div class="header__logo">
+                  <img src="./images/logo.svg" alt="logo" />
+                </div>
+              </a>
+            </div>
+            <div class="header__right">
+              <div class="header__right-container">
+                <a href="#" class="header__login">
+                  <span class="header__login-text">Вход</span>
+                  <img src="./images/login 1.svg" alt="login" />
+                </a>
+              </div>
+              <div class="header__actions-container">
+                <a href="#" class="header__search">
+                  <img src="./images/Search.svg" alt="Search" />
+                </a>
+                <a href="#" class="header__wishlist">
+                  <img src="./images/Frame 6762.svg" alt="wishlist" />
+                </a>
+                <a href="#" class="header__cart">
+                  <img src="./images/shop.svg" alt="cart" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <ul class="header__nav">
+            <li class="header__nav-item active">
+              <a href="#" class="header__nav-link">
+                <img src="./images/list.svg" alt="nav-link" />
+                <span class="header__nav-link-text">Каталог</span>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                <img src="./images/icon.svg" alt="nav-link" />
+                <span class="header__nav-link-text">Здоровье</span>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                <img src="./images/icon (1).svg" alt="nav-link" />
+                <span class="header__nav-link-text">Красота</span>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                <img src="./images/icon (2).svg" alt="nav-link" />
+                <span class="header__nav-link-text">Гигиена</span>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">
+                <img src="./images/icon (3).svg" alt="nav-link" />
+                <span class="header__nav-link-text">Все для дома</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <div class="background-line"></div>
+    <div class="container-body">
+      <main>
+        <div class="container">
+          <nav class="breadcrumb">
+            <a class="breadcrumb__item" href="#">
+              <img src="./images/home.svg" alt="home" />
+            </a>
+            <a class="breadcrumb__item" href="#">Категория</a>
+            <a class="breadcrumb__item" href="#">Здоровье</a>
+            <a class="breadcrumb__item-active" href="#"
+              >Dermаlogiсa PreCleanse - гидрофильное очищающее масло 150мл</a
+            >
+          </nav>
+          <div class="product-details">
+            <a href="#" class="button-next">
+              <img src="./images/thin@2x.svg" alt="back arrow" />
+              Назад
+            </a>
+            <h1 class="product-card__title">
+              Dermalogica PreCleanse - гидрофильное очищающее масло 150мл
+            </h1>
+          </div>
+          <div class="product-card">
+            <div class="product-card__item">
+              <div class="product-card__images">
+                <img
+                  class="product-card__images-item active"
+                  src="./images/pic.jpg"
+                  alt="Image 1"
+                  data-full="./images/pic.jpg"
+                />
+                <img
+                  class="product-card__images-item"
+                  src="./images/pic.jpg"
+                  alt="Image 2"
+                  data-full="./images/pic.jpg"
+                />
+                <img
+                  class="product-card__images-item"
+                  src="./images/pic.jpg"
+                  alt="Image 3"
+                  data-full="./images/pic.jpg"
+                />
+                <img
+                  class="product-card__images-item"
+                  src="./images/pic.jpg"
+                  alt="Image 4"
+                  data-full="./images/pic.jpg"
+                />
+              </div>
+              <div class="product-card__img">
+                <img
+                  class="product-active"
+                  src="./images/pic.jpg"
+                  alt="Active Image"
+                  id="activeImage"
+                />
+              </div>
+            </div>
+            <div class="product-card__details">
+              <div class="product-card__product-rating">
+                <div class="container-product">
+                  <div class="product-promotion">2 +1</div>
+                  <div class="product-promotion">Товар недели</div>
+                  <div class="product-stars">
+                    <div class="product-stars__item">
+                      <img src="./images/Star 2.svg" alt="stars-product" />
+                      <img src="./images/Star 2.svg" alt="stars-product" />
+                      <img src="./images/Star 2.svg" alt="stars-product" />
+                      <img src="./images/Star 2.svg" alt="stars-product" />
+                      <img src="./images/Star 5.svg" alt="stars-product" />
+                    </div>
+                  </div>
+                  <span class="product-reviews">345 отзывов</span>
+                  <a href="#" class="product-copy-link">
+                    <img src="./images/share.svg" alt="copy-link" />
+                  </a>
+                </div>
+                <div class="product-code">Код товара: 12333211231AAB</div>
+              </div>
+              <div class="product-description">
+                <div class="product-card__title">Описание</div>
+                <p class="product-card__desc">
+                  Мощный коктейль из 12 аминокислот (лейцин, аргинин,
+                  аспарагиновая кислота, глицин, аланин, серин, валин, пролин,
+                  треонин, изолейцин, гистидин, фенилаланин повышает
+                  эластичность, обеспечивает увлажняющий эффект, наполняет
+                  клетки кожи энергией
+                </p>
+                <a class="product-card__link" href="#">К описанию</a>
+              </div>
+              <div class="product-price">
+                <span class="new-price">12 600 ₽</span>
+                <span class="old-price">14 000 ₽</span>
+              </div>
+              <p class="product-stock">
+                Предварительная цена доступна после авторизации
+              </p>
+              <div class="product-buttons">
+                <a href="#" class="add-to-wishlist">Добавить в избранное</a>
+                <a href="#" class="add-to-cart">Добавить в корзину</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-tabs">
+            <div class="tabs">
+              <a class="tab active" href="#">Описание</a>
+              <a class="tab" href="#">Состав</a>
+              <a class="tab" href="#">Способ применения</a>
+              <a class="tab" href="#">Вопросы и ответы</a>
+            </div>
+
+            <div class="tab-content active" id="description">
+              <div class="tab-content__title">Описание</div>
+              <p>
+                Лёгкое масло из комбинации масел Оливы, орехов Кукуйи и Абрикоса
+                удаляет с поверхности кожи жирорастворимые загрязнения и
+                средства макияжа. Это первый этап Двойного очищения Dermalogica.
+                Precleanse полностью растворяет себум, солнцезащитные фильтры,
+                водостойкую косметику, загрязнения из окружающей среды, которые
+                скапливаются на поверхности кожи, и позволяет назначенному Вам
+                очистителю для второго этапа очищения более тщательно
+                воздействовать на кожу и получить результаты профессионального
+                очищения. Профессиональный и розничный продукт.
+              </p>
+              <p>
+                Производитель соблюдает нормы и стандарты законодательства стран
+                ЕС по защите окружающей среды, поэтому ламинат производится
+                исключительно из натуральной древесины, которая поставляется из
+                специально отведенных к вырубке участков. Таким образом,
+                экоприверженность и соответствие европейским требованиям
+                безопасности в эксплуатации подтверждены определенными
+                сертификатами.
+              </p>
+            </div>
+          </div>
+
+          <div class="product-recommendations">
+            <div class="product-recommendations__block-header">
+              <h2 class="product-recommendations__title">Рекомендуем</h2>
+              <a class="product-recommendations__button" href="#">Все товары</a>
+            </div>
+            <div class="product-recommendations__item">
+              <div class="product-recommendations__card">
+                <img src="./images/pic (1).jpg" alt="Витамин Д" />
+                <div class="product-recommendations__info">
+                  <div class="product-block-title">
+                    <a href="#" class="product-title"
+                      >Витамин Д.ДЗ О 03 капсулы 2000 МЕ 90 шт. БАД для
+                      иммунитета, витаминный комплекс для здор...</a
+                    >
+                  </div>
+                  <div class="product-recommendations__container">
+                    <div class="product-recommendations__price">
+                      <span class="product-recommendations__new-price"
+                        >869 ₽</span
+                      >
+                      <span class="product-recommendations__old-price"
+                        >1269 ₽</span
+                      >
+                      <span class="product-recommendations__discount">30%</span>
+                    </div>
+                    <a class="product-recommendations__button">
+                      <img
+                        class="icom-button"
+                        src="./images/Shopping cart.svg"
+                        alt="button"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-recommendations__card">
+                <img src="./images/image 2.jpg" alt="Витамин Д" />
+                <div class="product-recommendations__info">
+                  <div class="product-block-title">
+                    <a href="#" class="product-title"
+                      >Витамин Д.ДЗ О 03 капсулы 2000 МЕ 90 шт. БАД для
+                      иммунитета, витаминный комплекс для здор...</a
+                    >
+                  </div>
+                  <div class="product-recommendations__container">
+                    <div class="product-recommendations__price">
+                      <span class="product-recommendations__new-price"
+                        >869 ₽</span
+                      >
+                    </div>
+                    <a class="product-recommendations__button">
+                      <img
+                        class="icom-button"
+                        src="./images/Shopping cart.svg"
+                        alt="button"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-recommendations__card">
+                <img src="./images/pic.jpg" alt="Витамин Д" />
+                <div class="product-recommendations__info">
+                  <div class="product-block-title">
+                    <a href="#" class="product-title"
+                      >Витамин Д 3 5000 ME 120 капсул</a
+                    >
+                  </div>
+                  <div class="product-recommendations__container">
+                    <div class="product-recommendations__price">
+                      <span class="product-recommendations__new-price"
+                        >869 ₽</span
+                      >
+                      <span class="product-recommendations__old-price"
+                        >1269 ₽</span
+                      >
+                      <span class="product-recommendations__discount">30%</span>
+                    </div>
+                    <a class="product-recommendations__button">
+                      <img
+                        class="icom-button"
+                        src="./images/Shopping cart.svg"
+                        alt="button"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product-recommendations__card">
+                <img src="./images/image 2.jpg" alt="Витамин Д" />
+                <div class="product-recommendations__info">
+                  <div class="product-block-title">
+                    <a href="#" class="product-title"
+                      >Витамин Д.ДЗ О 03 капсулы 2000 МЕ 90 шт. БАД для
+                      иммунитета, витаминный комплекс для здор...</a
+                    >
+                  </div>
+                  <div class="product-recommendations__container">
+                    <div class="product-recommendations__price">
+                      <span class="product-recommendations__new-price"
+                        >869 ₽</span
+                      >
+                    </div>
+                    <a class="product-recommendations__button">
+                      <img
+                        class="icom-button"
+                        src="./images/Shopping cart.svg"
+                        alt="button"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <section>
+      <div class="section__container">
+        <div class="section__block">
+          <div class="section__block-text">Рассылка о здоровье и красоте</div>
+          <div class="section__block-desc">
+            Подпишись и узнавай о здоровом питании, пользе витаминов и экологии
+          </div>
+        </div>
+        <div class="section__block">
+          <form class="form">
+            <input
+              type="email"
+              class="input"
+              placeholder="Введите адрес эл. почты"
+            />
+            <<button type="submit" class="button">Подписаться</button>
+            <div class="checkbox">
+              <input type="checkbox" id="policy" />
+              <label for="policy"
+                >Принимаю условия политикой конфиденциальности и даю разрешение
+                на обработку персональных<br />данных в соответствии с согласием
+                на обработку персональных данных.</label
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="container-body">
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__col">
+              <div class="footer__title">Здоровье</div>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <div class="footer__title">Красота</div>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <div class="footer__title">Дом</div>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <div class="footer__title">Наборы</div>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <div class="footer__title">О компании</div>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Пункт меню</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="footer__content-center">
+              <div class="footer__social">
+                <a href="#" class="footer__social-link">
+                  <img src="./images/youtube.svg" alt="logo" />
+                </a>
+                <a href="#" class="footer__social-link">
+                  <img src="./images/vk.svg" alt="logo" />
+                </a>
+                <a href="#" class="footer__social-link">
+                  <img src="./images/dzen.svg" alt="logo" />
+                </a>
+                <a href="#" class="footer__social-link">
+                  <img src="./images/tg.svg" alt="logo" />
+                </a>
+                <a href="#" class="footer__social-link">
+                  <img src="./images/skyp.svg" alt="logo" />
+                </a>
+                <a href="#" class="footer__social-link">
+                  <img src="./images/whatsapp.svg" alt="logo" />
+                </a>
+                <a href="#" class="footer__social-link">
+                  <img src="./images/ok.svg" alt="logo" />
+                </a>
+              </div>
+              <div class="footer__info-block">
+                <a href="#" class="footer__link">example@mail.com</a>
+              </div>
+              <div class="footer__info-block">
+                <a href="#" class="footer__link">8 800 555 55 22</a>
+              </div>
+              <div class="footer__info-block">
+                <a href="#">
+                  <img src="./images/Vector.png" alt="nav" />
+                  <div class="info-block">Написать нам</div>
+                </a>
+              </div>
+            </div>
+            <div class="footer__content-bottom">
+              <div class="footer__payment">
+                <a href="#" class="footer__payment-link">
+                  <img src="images/MNP.svg" alt="mir" />
+                </a>
+                <a href="#" class="footer__payment-link">
+                  <img src="images/Maestro.svg" alt="maestro" />
+                </a>
+                <a href="#" class="footer__payment-link">
+                  <img src="images/Mastercard.svg" alt="mastercard" />
+                </a>
+                <a href="#" class="footer__payment-link">
+                  <img src="images/Visa-Classic.svg" alt="visa" />
+                </a>
+              </div>
+              <div class="footer__policy">
+                <a href="#" class="footer__link">Политика конфиденицальности</a>
+                <a href="#" class="footer__link">Сделано в CoffeeStudio</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

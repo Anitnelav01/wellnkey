@@ -1,0 +1,41 @@
+///fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("./fonts/AnyConv.com__NexaBold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+///stile-border
+$border-bottom: 1px solid #adacb1;
+
+///body
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #21211f;
+  margin: 0;
+}
+
+a {
+  color: #21211f;
+}
+
+.container-body {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+///background-line
+.background-line {
+  height: 16px;
+  width: 100%;
+  background: linear-gradient(#f2f3f4, #fff);
+}
+
+@import "~scss/header";
+@import "~scss/content";
+@import "~scss/section";
+@import "~scss/footer";

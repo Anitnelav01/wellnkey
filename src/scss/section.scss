@@ -1,0 +1,84 @@
+section {
+  background: #0b1547;
+}
+
+.section__container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  padding: 38px 43px;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+
+.section__block {
+  flex-grow: 1;
+  &:first-child {
+    margin-right: 40px;
+  }
+}
+
+.section__block-text {
+  color: #fefefe;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+  padding: 15px 0;
+}
+
+.section__block-desc {
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+
+  input {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    border: none;
+    border: 2px solid #7d90dc;
+    padding: 10px;
+    outline: none;
+    margin-right: 10px;
+  }
+  label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .police {
+    margin: 0;
+  }
+}
+
+form {
+  .input {
+    padding: 10px 16px;
+    width: 73%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    width: 20%;
+    background: #f4f4f433;
+    padding: 8px;
+    border: none;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+  }
+}
